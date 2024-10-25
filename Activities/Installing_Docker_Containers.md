@@ -74,6 +74,7 @@ To check the Docker version, run:
 ```bash
 docker version
 ```
+<img width="1177" alt="Screenshot 2024-10-24 at 7 05 20 PM" src="https://github.com/user-attachments/assets/1d912d6d-f077-4a16-8e68-31941d527412">
 
-<img width="904" alt="port used by the server" src="https://github.com/user-attachments/assets/36b10e10-9120-421d-bbe7-6eec1a31f594">
+
 
