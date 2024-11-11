@@ -65,8 +65,6 @@ The integration of multiple devices and external services in smart homes undersc
 |                     | Cloud Data Integrity Risks             | Use end-to-end encryption for cloud-stored data              | Hintaw et al. (2023)                   |
 
 ## Attack/Defense (A/D) Tree
-![mermaid-diagram-2024-11-11-151955](https://github.com/user-attachments/assets/70ad7f45-024e-4b18-a81d-6ea898f72e33)
-
 
 ```mermaid
 graph TD
