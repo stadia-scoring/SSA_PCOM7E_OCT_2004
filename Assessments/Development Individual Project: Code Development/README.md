@@ -5,6 +5,9 @@ This project evaluates the performance of Selective Encryption and Full Encrypti
 
 For further context on the system modeled in this project, refer to the original design document: [Development Team Project: Design Document](https://gist.github.com/stadia-scoring/35a7b5ed853ce4ca49db343518a46ac4). This document provides a comprehensive overview of the smart home network system, its functionalities, and the potential security vulnerabilities it addresses.
 
+
+ A [Video Walkthrough](https://risjo-my.sharepoint.com/:v:/p/mauricio/EURmNn01uE1GvUN5l4a977EBdxTTaGwtU4IgqyRiE1AHvQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WdXYaE) of the model is availble to view online.
+
 ## Table of Contents
 
 - [Introduction](#introduction)
