@@ -3,7 +3,7 @@
 
 This project evaluates the performance of Selective Encryption and Full Encryption schemes by measuring their encryption times, payload sizes, and Round-Trip Times (RTTs) over various iteration counts. It highlights the impact of encryption methods and test configurations on RTT discrepancies, offering insights into their performance and security implications.
 
-For further context on the system modeled in this project, refer to the original design document: [Development Team Project: Design Document (GROUP 2)](link-to-original-document). This document provides a comprehensive overview of the smart home network system, its functionalities, and the potential security vulnerabilities it addresses.
+For further context on the system modeled in this project, refer to the original design document: [Development Team Project: Design Document](https://gist.github.com/stadia-scoring/35a7b5ed853ce4ca49db343518a46ac4). This document provides a comprehensive overview of the smart home network system, its functionalities, and the potential security vulnerabilities it addresses.
 
 ## Table of Contents
 
