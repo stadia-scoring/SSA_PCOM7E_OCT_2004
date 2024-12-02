@@ -8,6 +8,8 @@ For further context on the system modeled in this project, refer to the original
 
  A [Video Walkthrough](https://risjo-my.sharepoint.com/:v:/p/mauricio/EURmNn01uE1GvUN5l4a977EBdxTTaGwtU4IgqyRiE1AHvQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WdXYaE) of the model is availble to view online.
 
+This project is availabe as a Gist: [https://gist.github.com/stadia-scoring/1972642d75f72395381a7737e6f1dbc6](https://gist.github.com/stadia-scoring/1972642d75f72395381a7737e6f1dbc6)
+
 ## Table of Contents
 
 - [Introduction](#introduction)
