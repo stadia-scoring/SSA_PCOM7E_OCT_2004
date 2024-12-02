@@ -1,7 +1,7 @@
 
 # Encryption Performance Analysis and RTT Discrepancy Investigation
 
-This project evaluates the performance of Selective Encryption and Full Encryption schemes by measuring their encryption times, payload sizes, and Round-Trip Times (RTTs) over various iteration counts. It highlights the impact of encryption methods and test configurations on RTT discrepancies, offering insights into their performance and security implications.
+This project evaluates the performance of Selective Encryption and Full Encryption schemes by measuring their encryption times, payload sizes, and Round-Trip Times (RTTs) over various iteration counts. It highlights the impact of encryption methods and test configurations on RTT discrepancies, offering insights into their performance and security implications (ScienceDirect, 2018).
 
 For further context on the system modeled in this project, refer to the original design document: [Development Team Project: Design Document](https://gist.github.com/stadia-scoring/35a7b5ed853ce4ca49db343518a46ac4). This document provides a comprehensive overview of the smart home network system, its functionalities, and the potential security vulnerabilities it addresses.
 
@@ -21,11 +21,11 @@ For further context on the system modeled in this project, refer to the original
 
 ## Introduction
 
-Encryption performance is a critical consideration in smart home communication systems, where security, efficiency, and system responsiveness must balance against constrained computational resources. Variations in encryption methods, payload sizes, and system/network constraints significantly influence performance metrics such as encryption time and RTT.
+Encryption performance is a critical consideration in smart home communication systems, where security, efficiency, and system responsiveness must balance against constrained computational resources (Cisco Press, 2021). Variations in encryption methods, payload sizes, and system/network constraints significantly influence performance metrics such as encryption time and RTT.
 
 This project examines the relative performance of Selective Encryption and Full Encryption under varying iteration counts. By analyzing encryption times, payload sizes, and RTTs, we aim to evaluate the practical trade-offs of each method in securing smart home systems while maintaining operational efficiency.
 
-This comparative analysis reveals the performance-to-security trade-offs of each approach and their suitability for different use cases, such as residential versus industrial applications.
+This comparative analysis reveals the performance-to-security trade-offs of each approach and their suitability for different use cases, such as residential versus industrial applications (MDPI, 2018).
 
 ---
 
@@ -35,7 +35,7 @@ The hypothesis driving this investigation is as follows:
 
 > **“Selective encryption of sensitive voice command data in a smart home communication system improves performance without compromising the confidentiality of critical information.”**
 
-This hypothesis assumes that encrypting only sensitive fields can achieve a better balance between performance (e.g., faster encryption times, reduced payload sizes) and security compared to encrypting the entire payload. We examine how these trade-offs impact critical performance metrics like RTT and encryption time.
+This hypothesis assumes that encrypting only sensitive fields can achieve a better balance between performance (e.g., faster encryption times, reduced payload sizes) and security compared to encrypting the entire payload. We examine how these trade-offs impact critical performance metrics like RTT and encryption time (IEEE Xplore, 2018).
 
 ### ABCDE Characteristics Addressed
 
@@ -191,7 +191,7 @@ Full     : ####################### 0.000350 s
 ### **Testing and Analysis**
 
 #### **Overview**
-This section analyzes the performance of Selective Encryption and Full Encryption schemes using metrics such as encryption time, payload size, and Round-Trip Time (RTT). Tests were conducted under varying iteration counts (1, 5, 10, 1000, 5000, 10000, and 50000) to simulate different smart home communication scenarios.
+This section analyzes the performance of Selective Encryption and Full Encryption schemes using metrics such as encryption time, payload size, and Round-Trip Time (RTT). Tests were conducted under varying iteration counts (1, 5, 10, 1000, 5000, 10000, and 50000) to simulate different smart home communication scenarios MDPI (2018).
 
 ---
 
@@ -217,7 +217,7 @@ This section analyzes the performance of Selective Encryption and Full Encryptio
 ---
 
 #### **2. Payload Size Comparison**
-The payload size directly affects the amount of data transmitted over the network.
+The payload size directly affects the amount of data transmitted over the network (Cisco Press, 2021). Selective Encryption increases payload size due to added metadata, while Full Encryption minimizes size by avoiding extra metadata fields (IBM Developer, 2020).
 
 | Encryption Scheme   | Payload Size (bytes) |
 |----------------------|----------------------|
@@ -231,7 +231,7 @@ The payload size directly affects the amount of data transmitted over the networ
 ---
 
 #### **3. Round-Trip Time (RTT) Analysis**
-RTT measures the total time taken to send a message to the server and receive a response.
+RTT measures the total time taken to send a message to the server and receive a response (ScienceDirect, 2018). Factors such as payload size, network variability, and encryption method significantly influence RTT performance (MDPI, 2018).
 
 ##### **Key Observations**
 | Iteration Count | Selective RTT (s) | Full RTT (s) | Performance Gap (Times Slower) |
@@ -264,3 +264,21 @@ This project evaluated the performance of Selective and Full Encryption schemes 
 1. **Performance Trade-offs**: Full Encryption consistently outperforms Selective Encryption at low iteration counts. However, Selective Encryption becomes competitive at high iteration counts where fixed processing overhead diminishes.
 2. **Payload Size Impact**: Selective Encryption's larger payload size incurs higher transmission costs, particularly impactful at lower iteration counts.
 3. **Operational Context**: Full Encryption is optimal for typical smart home scenarios with low concurrency, whereas Selective Encryption is better suited for high-throughput or metadata-sensitive environments like industrial applications.
+
+## References
+
+1. Cisco Press (2021) *Communication Protocols for IoT*. Available at: [https://www.ciscopress.com/articles/article.asp?p=2923211&seqNum=6](https://www.ciscopress.com/articles/article.asp?p=2923211&seqNum=6) (Accessed: 29 November 2024).
+
+2. Schneier, B. (1999) *Attack Trees*. Available at: [https://www.schneier.com/academic/archives/1999/12/attack_trees.html](https://www.schneier.com/academic/archives/1999/12/attack_trees.html) (Accessed: 27 November 2024).
+
+3. IBM Developer (2020) *Top 10 IoT Security Challenges*. Available at: [https://developer.ibm.com/articles/iot-lp101-connectivity-network-protocols/](https://developer.ibm.com/articles/iot-lp101-connectivity-network-protocols/) (Accessed: 30 November 2024).
+
+4. Docker Inc. (2021) *Containerized Python Development – Part 1*. Available at: [https://www.docker.com/blog/containerized-python-development-part-1/](https://www.docker.com/blog/containerized-python-development-part-1/) (Accessed: 28 November 2024).
+
+5. MDPI (2018) *Security of IoT Application Layer Protocols: Challenges and Findings*. *Future Internet*, 12(3), p.55. Available at: [https://www.mdpi.com/2411-9660/3/3/32](https://www.mdpi.com/2411-9660/3/3/32) (Accessed: 26 November 2024).
+
+6. IEEE Xplore (2018) *IoT Based Smart Security and Home Automation System*. Available at: [https://ieeexplore.ieee.org/document/7813916](https://ieeexplore.ieee.org/document/7813916) (Accessed: 28 November 2024).
+
+7. IEEE Xplore (2017) *Smart Vehicles with Everything*. Available at: [https://ieeexplore.ieee.org/document/7917997](https://ieeexplore.ieee.org/document/7917997) (Accessed: 27 November 2024).
+
+8. ScienceDirect (2018) *A Review of Smart Cities Based on the Internet of Things Concept*. *Journal of Cleaner Production*. Available at: [https://www-sciencedirect-com.uniessexlib.idm.oclc.org/science/article/pii/S0959652618339775?via%3Dihub](https://www-sciencedirect-com.uniessexlib.idm.oclc.org/science/article/pii/S0959652618339775?via%3Dihub) (Accessed: 29 November 2024).
